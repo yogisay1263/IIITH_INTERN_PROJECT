@@ -1,0 +1,12 @@
+/* app.css */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: linear-gradient(to bottom, #003B64, #0087CA, #00ABE7, #00DDF9);
+  /* Add other styles as needed */
+}
+
+.gradient-background {
+  height: 100vh; /* Adjust as per your layout requirements */
+}

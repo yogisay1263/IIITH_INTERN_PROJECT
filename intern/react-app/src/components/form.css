@@ -1,0 +1,63 @@
+
+  body {
+    font-family: 'Nunito', sans-serif;
+    color: whitesmoke;
+    background: linear-gradient(45deg, #7ED7C1 30%, #009688 90%);
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  
+  form {
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 8px 14px;
+    background: rgba(8, 10, 10, 0.622);
+    border-radius: 8px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  
+  .input-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .input-container > div {
+    width: 48%;
+  }
+  
+  input,
+  select,
+  textarea {
+    width: 99%;
+    padding: 10px;
+    box-shadow: gray;
+    margin-bottom: 15px;
+    background-color: rgb(212, 208, 208);
+    border: 1px solid rgb(56, 53, 53);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: rgb(147, 139, 139);
+    color: black;
+    border: none;
+    height: 40px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: whitesmoke;
+    text-shadow: whitesmoke;
+  }
+  
+  button:hover {
+    background-color: #333333;
+  }
